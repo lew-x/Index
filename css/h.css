@@ -89,35 +89,6 @@ body, html {
     }
 }
 
-@-ms-keyframes bg {
-    0% {
-        transform: rotate(0deg);
-        border-radius: 0;
-    }
-    50% {
-        transform: rotate(180deg);
-        border-radius: 0;
-    }
-    to {
-        transform: rotate(1turn);
-        border-radius: 0;
-    }
-}
-
-@-moz-keyframes bg {
-    0% {
-        transform: rotate(0deg);
-        border-radius: 0;
-    }
-    50% {
-        transform: rotate(180deg);
-        border-radius: 0;
-    }
-    to {
-        transform: rotate(1turn);
-        border-radius: 0;
-    }
-}
 
 nav {
     position: fixed;
@@ -164,8 +135,6 @@ nav a:hover {
     padding: 80px 0;
     animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -webkit-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
-    -ms-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
-    -moz-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
 }
 
 .ch h2.chtitle {
@@ -210,28 +179,6 @@ nav a:hover {
     }
 }
 
-@-ms-keyframes fadedown {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@-moz-keyframes fadedown {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .container {
     position: relative;
     width: 1000px;
@@ -249,8 +196,6 @@ nav a:hover {
 .intro .container {
     animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
     -webkit-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
-    -ms-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
-    -moz-animation: fadedown 3.5s cubic-bezier(.19, 1, .22, 1);
 }
 
 .hello {
@@ -366,8 +311,6 @@ nav a:hover {
 ul.skill li .progress div {
     animation: progressin 7s;
     -webkit-animation: progressin 7s;
-    -ms-animation: progressin 7s;
-    -moz-animation: progressin 7s;
 }
 
 @keyframes progressin {
@@ -377,18 +320,6 @@ ul.skill li .progress div {
 }
 
 @-webkit-keyframes progressin {
-    0% {
-        width: 0;
-    }
-}
-
-@-ms-keyframes progressin {
-    0% {
-        width: 0;
-    }
-}
-
-@-moz-keyframes progressin {
     0% {
         width: 0;
     }
